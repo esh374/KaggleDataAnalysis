@@ -955,7 +955,7 @@ void handleTimeTrendsOption(const vector<KickstarterProject>& allProjects) {
 
 
 int main() {
- ifstream file("/Users/ayesha/Documents/UG-2 submission/FP_DSA/dsaProjectData.csv");
+ ifstream file("/Path/to/dsaProjectData.csv");
 
     if (!file.is_open()) {
         cerr << "Error opening file!" << endl;
